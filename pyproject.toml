@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gpw"
+version = "0.0.1"
+description = "GPW"
+authors = ["Michał Kowol <michal.kowol@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "2.28.2"
+
+[tool.poetry.scripts]
+app = "gpw:main"
+test = "scripts:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
