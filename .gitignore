@@ -1,15 +1,31 @@
 .DS_Store
+.classpath
+.project
+.settings
+.springBeans
+target
+#Binary files like jpg, png, gif, swf should be stored on the gsp.
 .swf
 .jpg
 .jpeg
 .png
 .gif
+log4j.log
 .idea
 *.iml
 *.ipr
 *.iws
-tmp.json
+/bin
+tmp.*
+test/**
+http-client.private.env.json
+__pycache__/
+*.py[cod]
+
+
+### Gradle template
 .gradle
 build/
 out/
-*.csv
+
+gpw.csv
